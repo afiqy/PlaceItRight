@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "354857957797",
+    "firebase_url": "https://placeitright-32ae2.firebaseio.com",
+    "project_id": "placeitright-32ae2",
+    "storage_bucket": "placeitright-32ae2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354857957797:android:fa129d04aeb61713",
+        "android_client_info": {
+          "package_name": "my.edu.unikl.placeitright"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354857957797-ij1ofna3q071kd9ol7f2t8q2pott544e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.edu.unikl.placeitright",
+            "certificate_hash": "24b73c72d45ad3907d12d41a229c724dbae82dfe"
+          }
+        },
+        {
+          "client_id": "354857957797-2qpo4vd48m573rl5klalabu5km63abqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbM1XBu70ZT5ZTzYjjvlccPGZim_HTrnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354857957797-2qpo4vd48m573rl5klalabu5km63abqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

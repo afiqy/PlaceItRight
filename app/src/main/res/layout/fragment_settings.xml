@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingRight="0dp">
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:paddingRight="315dp"
+        android:text="Store"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Store" />
+
+    <Button
+        android:id="@+id/btnCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:paddingRight="297dp"
+        android:text="Country"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Country" />
+
+    <Button
+        android:id="@+id/btnLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:paddingRight="288dp"
+        android:text="Language"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Language" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/white"
+        android:paddingRight="300dp"
+        android:text=" Log Out"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Log Out" />
+
+    <Button
+        android:id="@+id/btnCancel2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/pageTitleSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnCancel2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="2dp"
+        android:text="SETTINGS"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold"
+        app:fontFamily="@font/amaranth_bold"
+        tools:text="SETTINGS" />
+
+</RelativeLayout>

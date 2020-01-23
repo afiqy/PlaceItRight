@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"/>
+
+        <EditText
+            android:id="@+id/product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"/>
+
+        <EditText
+            android:id="@+id/product_Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Type"/>
+
+        <EditText
+            android:id="@+id/product_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Category"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:Text="Product Details"/>
+
+        <EditText
+            android:id="@+id/product_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Details"
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"/>
+    </RelativeLayout>
+
+</ScrollView>

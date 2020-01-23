@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_store_white_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_product"
+        android:icon="@drawable/baseline_furniture_white_24dp"
+        android:title="@string/title_Product" />
+
+    <item
+        android:id="@+id/navigation_showroom"
+        android:icon="@drawable/baseline_showroom512_white_24dp"
+        android:title="@string/title_showroom" />
+    <item
+        android:id="@+id/navigation_list"
+        android:icon="@drawable/baseline_list_alt_white_24dp"
+        android:title="@string/title_List" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_person_white_24dp"
+        android:title="@string/title_profile" />
+
+</menu>

@@ -1,0 +1,68 @@
+{
+  materials: [
+    {
+      name: 'color_16448250',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.98039200000000004,
+            0.98039200000000004,
+            0.98039200000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'color_11593967',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.69019600000000003,
+            0.90980399999999995,
+            0.93725499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/BabyFurniture/Cots/FritidsBlue.obj',
+    name: 'FritidsBlue',
+    recenter: 'root',
+    scale: 0.015082999999999999,
+  },
+  version: '0.54:2',
+}

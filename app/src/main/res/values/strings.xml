@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PlaceItRight</string>
+    <string name="let_s_go">LET\'S GO</string>
+    <string name="title_home">Home</string>
+    <string name="title_Product">Products</string>
+    <string name="title_showroom">Showroom</string>
+    <string name="title_List">List</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

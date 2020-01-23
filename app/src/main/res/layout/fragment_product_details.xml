@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ViewDesc"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="410dp"
+            android:text="txtDesc"
+            android:textColor="#808080"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="345dp"
+            android:text="txtPrice"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:text="txtName"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/ImageViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="60dp">
+            <ImageView
+                android:id="@+id/imageSlideView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/defaultproductimage" />
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/ProductDetailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="138dp"
+            android:text="Product"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BackToCatalogueBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/arrow" />
+
+        <Button
+            android:id="@+id/AddToListBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/baseline_addtolist_alt_white_24dp"
+            android:drawablePadding="18dp"
+            android:gravity="left|center"
+            android:paddingLeft="15dp"
+            android:paddingRight="100dp"
+            android:text="ADD TO LIST"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textStyle="bold" />
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="570dp"></ExpandableListView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+{
+  materials: [
+    {
+      name: 'color_16448250',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.98039200000000004,
+            0.98039200000000004,
+            0.98039200000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'color_16089887',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.96078399999999997,
+            0.51372600000000002,
+            0.121569,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/BabyFurniture/Cots/FritidsOrange.obj',
+    name: 'FritidsOrange',
+    recenter: 'root',
+    scale: 0.015082999999999999,
+  },
+  version: '0.54:2',
+}
